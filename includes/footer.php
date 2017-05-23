@@ -1,10 +1,10 @@
 <!-- Javascript files-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="../portfolio_1_screen_BASE/js/jquery-1.11.0.min.js"><\/script>')</script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<script src="../portfolio_1_screen_BASE/js/jquery.cookie.js"></script>
-<script src="../portfolio_1_screen_BASE/js/jquery.onepage-scroll.js"></script>
-<script src="../portfolio_1_screen_BASE/js/front.js"></script>
+<script src="portfolio_1_screen_BASE/js/jquery.cookie.js"></script>
+<script src="portfolio_1_screen_BASE/js/jquery.onepage-scroll.js"></script>
+<script src="portfolio_1_screen_BASE/js/front.js"></script>
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
