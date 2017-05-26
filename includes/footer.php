@@ -13,4 +13,5 @@
         e.src='//www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X');ga('send','pageview');
+//    TODO: SET UP GOOGLE ANALYTICS!!!
 </script>
