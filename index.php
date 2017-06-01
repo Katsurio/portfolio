@@ -11,9 +11,9 @@
         <!-- page 2-->
         <?php include_once('includes/page_2.php'); ?>
         <!-- page 3 - class section-gray adds gray background-->
-        <?php include_once('includes/page_3.php'); ?>
-        <!-- page 4 -->
         <?php include_once('includes/page_4.php'); ?>
+        <!-- page 4 -->
+        <?php include_once('includes/page_3.php'); ?>
         <!-- page 5-->
         <?php include_once('includes/page_5.php'); ?>
         <!-- page 6-->
