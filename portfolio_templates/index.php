@@ -17,7 +17,7 @@
         <!-- page 5-->
         <?php include_once('includes/page_5.php'); ?>
         <!-- page 6-->
-        <?php include_once('includes/page_google_contact.php'); ?>
+        <?php include_once('includes/page_6.php'); ?>
     </div>
 </div>
 <?php require_once('includes/footer.php'); ?>

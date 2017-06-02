@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"              content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!--Site info-->
+    <meta name="description"           content="John Fisher Web Development Portfolio">
+    <meta name="keywords"              content="developer, web developer, web development, web design, javascript, js, fisher, john, front-end, front end, back-end, back end, full stack, full-stack, OC, orange county, LA, los angeles, SD, san diego, angular, php, jquery, programmer, engineer, software engineer, development, software developer, software development">
+    <meta name="author"                content="John Fisher">
+
+    <!--Social media sharing-->
+    <meta property="og:url"            content="http://www.katsurio.com">
+    <meta property="og:type"           content="profile">
+    <meta property="og:title"          content="John Fisher Web Development Portfolio">
+    <meta property="og:description"    content="Specializing in back end technologies.">
+    <meta property="og:image"          content="http://www.katsurio.com/images/portfolio_snapshot.jpg">
+    <meta name="twitter:card"          content="summary_large_image">
+
+    <!--Set browser colors for mobile and fullscreen for apple-->
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <title>John Fisher | Web Developer</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/katsurio_favicon.ico">
+    <!-- ===== STYLESHEETS ===== -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Magnific Popup -->
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <!-- Owl Carousel -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <!-- Preloader -->
+    <link href="css/preloader.css" rel="stylesheet">
+    <!-- Main styles -->
+    <link href="css/theme.css" rel="stylesheet">
+    <!-- Responsive styles -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Devicon(s) Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css" rel="stylesheet">
+    <!-- My Custom Icons via Fontastic -->
+    <link href="custom-fonts/styles.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="loader-wrapper">
+      <div class="loader">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
+    <!-- end Preloader -->
+
+    <!-- Toggle Menu -->
+    <header>
+      <button class="toggle-btn">
+        <span class="lines"></span>
+      </button>
+      <div class="menu">
+        <ul class="nav">
+          <li class="active">
+            <a href="#home">Home</a>
+          </li>
+          <li class="active">
+            <a href="#profile">Profile</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <!-- TODO: CHANGE -->
+            <a href="#portfolio-meetupmap">Applications</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- end Toggle menu -->
+
+    <!-- Home -->
+    <section id="home" class="fill">
+      <div class="home-background parallax-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="home-box col-xs-12">
+              <div>
+                <img class="profile-img" src="images/profile-img.jpg" alt="Profile Image">
+                <h1>Hi, I'm Taylor</h1>
+                <p>Creative front-end web developer</p>
+              </div>
+              <div class="social">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/taylorsturtz" target="_blank">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/taylorsturtz" target="_blank">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <!-- Todo: need to complete behance portfolio
+                  <li>
+                    <a href="https://www.behance.net/taylorsturtz">
+                      <i class="fa fa-behance"></i>
+                    </a>
+                  </li>-->
+                  <li>
+                    <a href="https://angel.co/taylorsturtz" target="_blank">
+                      <i class="icon icon-angellist"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/taylorsturtz" target="_blank">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.github.com/tsturtz" target="_blank">
+                      <i class="fa fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- end row -->
+        </div><!-- end container -->
+      </div>
+    </section>
+    <!-- end Home -->
+
+    <!-- Profile -->
+    <section id="profile">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Photo -->
+          <div class="hire-background col-xs-12 col-sm-6 col-sm-push-6" data-mh="match-profile">
+            <div class="white-layer">
+              <div class="middle-content">
+                <p>Check out my code.</p>
+                <a href="https://www.github.com/tsturtz" target="_blank"><i class="fa fa-github bigger"></i>&nbsp; GitHub</a>
+                <div class="divider"></div>
+                <p>Check out my resume.</p>
+                <a href="TaylorSturtz-FrontEndDeveloperResume.pdf" target="_blank"><i class="fa fa-download"></i>&nbsp; Resume</a>
+              </div>
+            </div>
+          </div>
+          <!-- end Photo -->
+          <div class="section-background col-xs-12 col-sm-6 col-sm-pull-6" data-mh="match-profile">
+            <h2>Hello!</h2>
+            <p>I'm an ambitious front end web developer with a knack for seamless design and intuitive user experience. I am endlessly curious about technology and what is possible with the right tools, the right team, and the drive to achieve. I enjoy combining my design and development tools to bring useful and easy-to-use applications to life.</p>
+            <br>
+            <p>When not coding I'm most likely hiking, playing soccer, or catching up on Game of Thrones. I speak a little German, I like to read about science and tech, and I make a mean breakfast burrito.</p>
+            <br>
+            <!-- <p>I am exploring opportunities to bring my abilities to an enthusiastic development team.</p> -->
+            <br>
+              <div class="link-box">
+                <a id="shout" href="#contact">
+                  <h4><i class="fa fa-paper-plane-o"></i>&nbsp; Give me a shout.</h4>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Profile -->
+
+    <!-- Services -->
+    <section id="services">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Tech icons -->
+          <div class="facts-background col-xs-12 col-sm-6" data-mh="match-services">
+            <div class="navy-layer">
+              <div class="middle-content">
+                <div class="grid">
+                  <div class="cell center"><i class="devicon-html5-plain html5"></i></div>
+                  <div class="cell center"><i class="devicon-css3-plain css3"></i></div>
+                  <div class="cell center"><i class="devicons devicons-bootstrap boot"></i></div>
+                  <div class="cell center"><i class="devicons devicons-materializecss mat"></i></div>
+
+                  <div class="cell center"><i class="devicon-javascript-plain js"></i></div>
+                  <div class="cell center"><i class="devicon-jquery-plain-wordmark jq"></i></div>
+                  <div class="cell center"><i class="devicon-angularjs-plain ng"></i></div>
+                  <div class="cell center"><i class="icon icon-firebase-icon fb"></i></div>
+
+                  <div class="cell center"><i class="devicon-photoshop-line ps"></i></div>
+                  <div class="cell center"><i class="devicon-wordpress-plain wp"></i></div>
+                  <div class="cell center"><i class="devicon-php-plain php"></i></div>
+                  <div class="cell center"><i class="devicons devicons-git git"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tech icons -->
+          <div class="section-background col-xs-12 col-sm-6" data-mh="match-services">
+            <h2>Skills and services</h2>
+            <!-- Service box 1 -->
+            <div class="service-box">
+              <div>
+                <i class="fa fa-terminal"></i>
+              </div>
+              <div>
+                <h4>Web Development</h4>
+                <p>I specialize in the client-side and use HTML, CSS, &amp; JavaScript to build responsive applications.</p>
+              </div>
+            </div>
+            <!-- Service box 2 -->
+            <div class="service-box">
+              <div>
+                <i class="fa fa-code"></i>
+              </div>
+              <div>
+                <h4>Web Design</h4>
+                <p>With over five years of visual design experience, I am able to craft alluring and intuitive user experiences.</p>
+              </div>
+            </div>
+            <!-- Service box 3 -->
+            <div class="service-box">
+              <div>
+                <i class="devicons devicons-scrum"></i>
+              </div>
+              <div>
+                <h4>Agile Workflow</h4>
+                <p>I thrive on flexible teams that use scrums, sprints, and stand-ups to review and reevaluate progress.</p>
+              </div>
+            </div>
+            <!-- Service box 4 -->
+            <div class="service-box">
+              <div>
+                <i class="fa fa-pencil"></i>
+              </div>
+              <div>
+                <h4>Graphic Design</h4>
+                <p>I've got an exceptional eye for design and strong skills in Photoshop, InDesign, Illustrator, and Inkscape.</p>
+              </div>
+            </div>
+            <!--  Service box 5 -->
+            <div class="service-box">
+              <div>
+                <i class="devicon-github-plain"></i>
+              </div>
+              <div>
+                <h4>Version Control<br><small><em>&amp; Development Tools</em></small></h4>
+                <p>I am active on GitHub and I use Atom, Chrome Dev Tools, and Git to develop and track applications.</p>
+              </div>
+            </div>
+            <!-- Service box 6 -->
+            <div class="service-box">
+              <div>
+                <i class="devicons devicons-database"></i>
+              </div>
+              <div>
+                <h4>Data Collection<br><small><em>&amp; Visualization</em></small></h4>
+                <p>I love getting my hands on data and seeing what's possible. Firebase and D3.js to collect and visualize.</p>
+              </div>
+            </div>
+            <!-- end Service box 6 -->
+          </div>
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </section>
+    <!-- end Services -->
+
+    <!-- Portfolio Meetup Map -->
+    <section id="portfolio-meetupmap" class="slide">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="portfolio-content slide-left col-xs-12 col-sm-6 col-sm-push-6" data-mh="match-portfolio-meetupmap">
+            <div class="meetup-layer">
+              <div>
+                <img src="images/MeetupMap-WebMock.jpg" alt="Meetup Map web app portfolio presentation">
+                <div class="image-layer">
+                  <div class="image-title">
+                    <h2>Meetup Map</h2>
+                    <ul class="fa-ul">
+                      <li><i class="fa-li devicons devicons-materializecss"></i> &nbsp;Materialize CSS</li>
+                      <li><i class="fa-li devicon-javascript-plain"></i> &nbsp;JavaScript</li>
+                      <li><i class="fa-li devicon-jquery-plain"></i> &nbsp;jQuery</li>
+                      <li><i class="fa-li fa fa-meetup"></i> &nbsp;Meetup API</li>
+                      <li><i class="fa-li fa fa-google"></i> &nbsp;Google Maps API</li>
+                      <li><i class="fa-li fa fa-youtube-play"></i> &nbsp;YouTube API</li>
+                    </ul>
+                    <a href="http://www.meetup-map.com" target="_blank"><i class="fa fa-external-link"></i>&nbsp; Live link</a>
+                    &nbsp; | &nbsp;
+                    <a href="https://github.com/Xevnik/meetup_map" target="_blank"><i class="fa fa-github"></i>&nbsp; View code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-background col-xs-12 col-sm-6 col-sm-pull-6" data-mh="match-portfolio-meetupmap">
+            <p><em>Web Application</em></p>
+            <h2>Meetup Map</h2>
+            <p>A modern responsive web application that allows users to search for upcoming meetup events based on location and interest. Results are displayed on a map and listed so that users can click to see detailed information, add the event to their calendar, and view YouTube videos related to the event.</p>
+            <br>
+            <div class="link-box">
+              <a href="http://www.meetup-map.com" target="_blank">
+                <h4><i class="fa fa-external-link"></i>&nbsp; Live link</h4>
+              </a>
+              &nbsp; | &nbsp;
+              <a href="https://github.com/Xevnik/meetup_map" target="_blank">
+                <h4><i class="fa fa-github"></i>&nbsp; View code</h4>
+              </a>
+            </div>
+          </div>
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </section>
+    <!-- end Portfolio Meetup Map -->
+
+    <!-- Portfolio Ann -->
+    <section id="portfolio-ann" class="slide">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="portfolio-content slide-right col-xs-12 col-sm-6" data-mh="match-portfolio-ann">
+            <div class="ann-layer">
+              <div>
+                <img src="images/AnnAckerman-WebMock-alt.jpg" alt="Ann Ackerman website portfolio presentation" class="ann-img-fix">
+                <div class="image-layer">
+                  <div class="image-title">
+                    <h2>Ann Ackerman, Realtor</h2>
+                    <ul class="fa-ul">
+                      <li><i class="fa-li devicon-html5-plain"></i> &nbsp;HTML</li>
+                      <li><i class="fa-li devicon-css3-plain"></i> &nbsp;CSS</li>
+                      <li><i class="fa-li devicons devicons-wordpress"></i> &nbsp;Custom Wordpress child theme</li>
+                      <li><i class="fa-li devicons devicons-wordpress"></i> &nbsp;Various Wordpress plugins</li>
+                      <li><i class="fa-li devicon-php-plain"></i> &nbsp;PHP</li>
+                    </ul>
+                    <a href="http://www.annackerman.com" target="_blank"><i class="fa fa-external-link"></i>&nbsp; Live link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-background col-xs-12 col-sm-6" data-mh="match-portfolio-ann">
+            <p><em>Business Website</em></p>
+            <h2>Ann Ackerman, Realtor</h2>
+            <p>A fully responsive website that was commissioned based on an expectation of great design. Ackerman's Real Estate website provides important information to visitors and increases the confidence of her clientele as they prepare to engage in multi-million dollar business transactions.</p>
+            <br>
+            <div class="link-box">
+              <a href="http://www.annackerman.com" target="_blank">
+                <h4><i class="fa fa-external-link"></i>&nbsp; Live link</h4>
+              </a>
+            </div>
+          </div>
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </section>
+    <!-- end Portfolio Ann -->
+
+    <!-- Portfolio Todo -->
+    <section id="portfolio-todo" class="slide">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="portfolio-content slide-left col-xs-12 col-sm-6 col-sm-push-6" data-mh="match-portfolio-todo">
+            <div class="todo-layer">
+              <div>
+                <img src="images/TodoForYou-WebMock.jpg" alt="Todo For You web app portfolio presentation">
+                <div class="image-layer">
+                  <div class="image-title">
+                    <h2>To-do For You</h2>
+                    <ul class="fa-ul">
+                      <li><i class="fa-li devicon-angularjs-plain"></i> &nbsp;AngularJS v1.5</li>
+                      <li><i class="fa-li devicon-angularjs-plain"></i> &nbsp;Angular Material</li>
+                      <li><i class="fa-li icon icon-firebase-icon"></i> &nbsp;AngularFire</li>
+                      <li><i class="fa-li icon icon-firebase-icon"></i> &nbsp;Firebase DB &amp; Auth</li>
+                      <li><i class="fa-li fa fa-clock-o"></i> &nbsp;Moment.js</li>
+                    </ul>
+                    <a href="https://tsturtz.github.io/todo-for-you/" target="_blank"><i class="fa fa-external-link"></i>&nbsp; Live link</a>
+                    &nbsp; | &nbsp;
+                    <a href="https://github.com/tsturtz/todo-for-you" target="_blank"><i class="fa fa-github"></i>&nbsp; View code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-background col-xs-12 col-sm-6 col-sm-pull-6" data-mh="match-portfolio-todo">
+            <p><em>Web Application</em></p>
+            <h2>To-do For You</h2>
+            <p>A fully responsive to-do list application with personalized lists following Google's material design paradigm. Data is synchronized through AngularFire three-way data-binding and authentication through Google or email/password allows users to create personalized lists that users can access at any time. Logged in users can add tasks, edit, delete, set and update due dates, and mark as completed. They can also delete their account and use the 'forgot password' email reset option. Tooltips and title/instruction cards provide great UX when no user is logged in or when the user's list is empty.</p>
+            <br>
+            <div class="link-box">
+              <a href="https://tsturtz.github.io/todo-for-you/" target="_blank">
+                <h4><i class="fa fa-external-link"></i>&nbsp; Live link</h4>
+              </a>
+              &nbsp; | &nbsp;
+              <a href="https://github.com/tsturtz/todo-for-you" target="_blank">
+                <h4><i class="fa fa-github"></i>&nbsp; View code</h4>
+              </a>
+            </div>
+          </div>
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </section>
+    <!-- end Portfolio Todo -->
+
+    <!-- Portfolio RealValue -->
+    <section id="portfolio-realvalue" class="slide">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="portfolio-content slide-right col-xs-12 col-sm-6" data-mh="match-portfolio-realvalue">
+            <div class="realvalue-layer">
+              <div>
+                <img src="images/RealValue-WebMock-alt.jpg" alt="Real Value web app portfolio presentation">
+                <div class="image-layer">
+                  <div class="image-title">
+                    <h2>Real Value LA &amp; OC</h2>
+                    <ul class="fa-ul">
+                      <li><i class="fa-li devicon-angularjs-plain"></i> &nbsp;AngularJS</li>
+                      <li><i class="fa-li devicon-angularjs-plain"></i> &nbsp;Angular Material</li>
+                      <li><i class="fa-li fa fa-leaf"></i> &nbsp;Angular Leaflet and geoJSON</li>
+                      <li><i class="fa-li devicon-d3js-plain"></i> &nbsp;D3.js</li>
+                      <li><i class="fa-li icon icon-firebase-icon"></i> &nbsp;Firebase real-time database</li>
+                      <li><i class="fa-li fa fa-google"></i> &nbsp;Google Places API</li>
+                      <li><i class="fa-li fa fa-home"></i> &nbsp;Zillow API</li>
+                      <li><i class="fa-li fa fa-briefcase"></i> &nbsp;Glassdoor API</li>
+                    </ul>
+                    <a href="http://www.realvalue.io" target="_blank"><i class="fa fa-external-link"></i>&nbsp; Live link</a>
+                    &nbsp; | &nbsp;
+                    <a href="https://github.com/tsturtz/realvalue" target="_blank"><i class="fa fa-github"></i>&nbsp; View code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-background col-xs-12 col-sm-6" data-mh="match-portfolio-realvalue">
+            <p><em>Web Application</em></p>
+            <h2>Real Value LA &amp; OC</h2>
+            <p>A dynamic web app for visualizing data across LA and Orange counties. Users who are looking to relocate or are just curious about their surroundings will benefit from the data presented. RealValue provides an area score derived from calculating the standard deviation from each data set (average home value, violent crime frequency, job availability) and adding them together. The RealValue score is shown on a color scale and on mouse hover; the score adjusts in real-time according to user selections. On zoom, clusters of restaurants (parks, and schools coming soon) are shown with individual place details on click.</p>
+            <br>
+            <div class="link-box">
+              <a href="http://www.realvalue.io" target="_blank">
+                <h4><i class="fa fa-external-link"></i>&nbsp; Live link</h4>
+              </a>
+              &nbsp; | &nbsp;
+              <a href="https://github.com/tsturtz/realvalue" target="_blank">
+                <h4><i class="fa fa-github"></i>&nbsp; View code</h4>
+              </a>
+            </div>
+          </div>
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </section>
+    <!-- end Portfolio RealValue -->
+
+    <!-- Portfolio SGT -->
+    <section id="portfolio-sgt" class="slide">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="portfolio-content slide-left col-xs-12 col-sm-6 col-sm-push-6" data-mh="match-portfolio-sgt">
+            <div class="sgt-layer">
+              <div>
+                <img src="images/StudentGradeTable-WebMock.jpg" alt="Student Grade Tracker web app portfolio presentation">
+                <div class="image-layer">
+                  <div class="image-title">
+                    <h2>Student Grade Tracker</h2>
+                    <ul class="fa-ul">
+                      <li><i class="fa-li devicons devicons-bootstrap"></i> &nbsp;Bootstrap</li>
+                      <li><i class="fa-li devicon-javascript-plain"></i> &nbsp;JavaScript</li>
+                      <li><i class="fa-li devicon-jquery-plain"></i> &nbsp;<em>Originally in</em> jQuery</li>
+                      <li><i class="fa-li devicon-angularjs-plain"></i> &nbsp;<em>Refactored in</em> AngularJS</li>
+                      <li><i class="fa-li icon icon-firebase-icon"></i> &nbsp;Firebase real-time database</li>
+                    </ul>
+                    <a href="https://tsturtz.github.io/student-grades/" target="_blank"><i class="fa fa-external-link"></i>&nbsp; Live link</a>
+                    &nbsp; | &nbsp;
+                    <a href="https://github.com/tsturtz/student-grades" target="_blank"><i class="fa fa-github"></i>&nbsp; View code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-background col-xs-12 col-sm-6 col-sm-pull-6" data-mh="match-portfolio-sgt">
+            <p><em>Web Application</em></p>
+            <h2>Student Grade Tracker</h2>
+            <p>Beyond CRUD operations, users are able to filter and sort students by name, course, or grade instantaneously. Form validation and popover notifications ensure proper user input. Tooltips let users know that they can edit-in-place to make changes on the fly to student records. Grade average calculations and color-scaled grading make it easy to see how well students are doing. A fully responsive layout creates great UX at every breakpoint.</p>
+            <br>
+            <div class="link-box">
+              <a href="https://tsturtz.github.io/student-grades/" target="_blank">
+                <h4><i class="fa fa-external-link"></i>&nbsp; Live link</h4>
+              </a>
+              &nbsp; | &nbsp;
+              <a href="https://github.com/tsturtz/student-grades" target="_blank"><h4>
+                <i class="fa fa-github"></i>&nbsp; View code</h4>
+              </a>
+            </div>
+          </div>
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </section>
+    <!-- end Portfolio SGT -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="google-maps col-xs-12 col-sm-6" data-mh="match-contact">
+            <div id="map-canvas"></div>
+          </div>
+          <div class="section-background col-xs-12 col-sm-6" data-mh="match-contact">
+            <h2>Get In Touch</h2>
+            <ul class="info">
+              <li class="myemail">
+                <i class="fa fa-envelope-o"></i>
+              </li>
+              <li class="myphone">
+                <i class="fa fa-phone"></i>
+              </li>
+            </ul>
+            <form method="post" id="contactform">
+              <div class="input-style">
+                <input type="text" id="name" name="name" placeholder="Name">
+                <span id="name_error">Please provide your name.</span>
+              </div>
+              <div class="input-style">
+                <input type="email" id="email" name="email" placeholder="E-Mail">
+                <span id="email_error">Email address was formatted badly.</span>
+              </div>
+              <div class="text-style">
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+                <span id="msg_error">Please provide a message.</span>
+              </div>
+              <button type="button" id="submit" class="submit-style" name="submit" value="Send Message"><i class="fa fa-paper-plane"></i>&nbsp; Send Message</button>
+              <div class="submit-result">
+                <p id="success"><i class="fa fa-check"></i> Your Message has been sent!</p>
+                <p id="error"><i class="fa fa-times"></i> Oops, looks like there was a server error. Please email me!</p>
+              </div>
+            </form>
+          </div>
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </section>
+    <!-- end Contact -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-background">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-left col-xs-6">
+              <p class="terminal-hire">
+                <!-- <i class="fa fa-angle-right"></i> I'm for hire. Let's build something!<span class="blink-text">_</span> -->
+                <i class="fa fa-angle-right"></i> I'm currently unavailable for freelance work<span class="blink-text">_</span>
+              </p>
+            </div>
+            <div class="col-right col-xs-6">
+              <a href="https://www.facebook.com/taylorsturtz" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="https://twitter.com/taylorsturtz" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <!-- Todo: need to complete behance portfolio
+              <a href="https://www.behance.net/taylorsturtz" target="_blank">
+                <i class="fa fa-behance"></i>
+              </a>-->
+              <a href="https://angel.co/taylorsturtz" target="_blank">
+                <i class="icon-angellist"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/taylorsturtz" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="https://www.github.com/tsturtz" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+            </div>
+          </div><!-- end row -->
+        </div><!-- end container -->
+      </div>
+    </footer>
+    <!-- end Footer -->
+
+    <!-- ===== JAVASCRIPTS ===== -->
+    <!-- jQuery Library -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Google Maps Library -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZISd2dj9XOcOLvQC162avw5TOoS7d9_k"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Retina Graphics -->
+    <script src="js/retina.min.js"></script>
+    <!-- Smooth Scroll -->
+    <script src="js/smoothscroll.min.js"></script>
+    <!-- Theme Plugins -->
+    <script src="js/theme-plugins.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
