@@ -16,7 +16,7 @@
         <?php include_once('includes/page_3.php'); ?>
         <!-- page 5-->
         <?php include_once('includes/page_5.php'); ?>
-        <!-- page 6-->
+        <!-- page 6 TODO: CHANGE CONTACT AND ADD MAP-->
         <?php include_once('includes/page_6.php'); ?>
     </div>
 </div>
